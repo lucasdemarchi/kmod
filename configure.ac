@@ -31,7 +31,8 @@ AC_PROG_LN_S
 PKG_PROG_PKG_CONFIG
 AC_PATH_PROG([XSLTPROC], [xsltproc])
 
-AC_PROG_CC_C99
+AX_PROG_CC_STDC
+#AC_PROG_CC_C99
 
 #####################################################################
 # Function and structure checks
